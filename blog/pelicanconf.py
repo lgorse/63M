@@ -7,6 +7,7 @@ SITENAME = 'Why Trump?'
 SITEURL = 'https://lgorse.github.io/why-trump/'
 
 PATH = 'content'
+IGNORE_FILES = ['.ipynb-checkpoints', '*/.ipynb-checkpoints/*.ipynb']
 
 TIMEZONE = 'PST8PDT'
 
@@ -38,4 +39,3 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
-IGNORE_FILES = ['.ipynb-checkpoints']
