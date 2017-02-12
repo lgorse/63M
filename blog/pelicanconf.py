@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Laurent Gorse'
-SITENAME = 'Why Trump?'
-SITEURL = 'https://lgorse.github.io/why-trump/'
+SITENAME = '63 Million'
+SITEURL = 'https://lgorse.github.io/63M/'
 
 PATH = 'content'
 IGNORE_FILES = ['.ipynb-checkpoints', '*/.ipynb-checkpoints/*.ipynb']
@@ -27,8 +27,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/laurent79'),
+          ('linkedin','https://www.linkedin.com/in/laurent-gorse-373b5414'),
+          ('github', 'https://github.com/lgorse/why-trump/'),
+          ('facebook','https://www.facebook.com/laurent.gorse.73'))
 
 DEFAULT_PAGINATION = 5
 
